@@ -1,8 +1,6 @@
 export const menuPage = () => {
     const content = document.getElementById('content');
     
-    console.log('I am hereeeee')
-
     const headline = document.createElement('h1');
     headline.innerHTML = 'Menu';
     content.appendChild(headline);
@@ -41,11 +39,5 @@ export const menuPage = () => {
     img3.setAttribute('id', 'meal');
     img3.src = "./images/spaghetti.jpg"
     meal3.appendChild(img3);
-
-    
-
-    
-
-
     
 }
