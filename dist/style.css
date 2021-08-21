@@ -1,0 +1,71 @@
+html {
+    background-color: burlywood;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Klee One', cursive;
+    
+}
+body {
+  margin: 0 30%;
+}
+#content {
+  background-color: blanchedalmond;
+  padding-bottom: 25px;
+}
+h1 {
+    margin: 40px 0;
+    font-size: 48px; 
+    padding-bottom: 25px;
+    
+    border-bottom: black 1px solid;
+    
+}
+
+#hours {
+    font-size: 20px;
+    background-color: rgb(224 160 114);
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 60px 60px;
+  }
+  
+  #location {
+    font-size: 20px;
+    background-color: rgb(224 160 114);
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 60px 60px;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    cursor: pointer;
+  }
+
+li {
+    height: 20px;
+    width: 20px;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+.active {
+    background-color: rgb(224 160 114);
+  }
+  
+li:hover {
+  background-color: rgb(224 160 114);
+  border: black solid 1px;
+}
+#menuDiv {
+  display: flex;
+}
+
+#meal {
+  height: 200px;
+  width: 320px;
+}
